@@ -1,0 +1,184 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #222;
+    color: white;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+header h1 {
+    font-size: 26px;
+    font-family: cursive;
+}
+.hero {
+    text-align: center;
+    padding: 50px;
+    background-image:url(/Img/ChatGPT\ Image\ 17\ abr\ 2025\,\ 06_58_57\ p.m..png) ;
+    background-position: 50px;
+    color: rgb(255, 255, 255);
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.categorias, .productos {
+    padding: 30px;
+    text-align: center;
+}
+.grid {
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+.categoria, .producto {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, trasnform 0.3s ease;
+}
+.categoria:hover, .producto:hover {
+    background-color: #3ae242;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #222;
+    color: white;
+}
+.busqueda {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.busqueda input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    font-size: 1rem;
+    border-radius: 20px;
+}
+.busqueda input::placeholder {
+    color: #aaa;
+}
+.busqueda button {
+    background-color: #3059b3;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.busqueda button:hover {
+    background-color: #1d3f8b;
+
+}
+.busqueda button:focus {
+    outline: none; /* Sin contorno al hacer clic */
+}
+header nav a {
+    font-family: 'Poppins', sans-serif; /* Fuente consistente con el título */
+    font-size: 1rem; /* Tamaño de texto adecuado */
+    font-weight: 400; /* Peso normal */
+    color: #3059b3; /* Color gris oscuro */
+    text-decoration: none; /* Elimina el subrayado */
+    margin: 0 15px; /* Espaciado entre los enlaces */
+    transition: color 0.3s ease;
+}
+.imagen {
+    width: 70%;
+    height: auto;
+    object-fit: cover;
+}
+.barra {
+    width: auto;
+    height: auto;
+    object-fit: cover;
+}
+.producto+ {
+    text-align: center;
+    margin: 20px;
+}
+.IMGA {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 600px; /* Ajusta el tamaño máximo del contenedor */
+    border: 2px solid #ccc; /* Opcional: agrega un borde */
+    padding: 10px; /* Opcional: agrega un relleno */
+    background-color: #f9f9f9; /* Opcional: color de fondo */
+}
+.contenedor-producto {
+    display: flex;
+    align-items: center; /* Centra verticalmente el contenido */
+    gap: 20px; /* Espacio entre el texto y la imagen */
+    margin: 20px auto;
+    max-width: 1200px; /* Ajusta el ancho máximo del contenedor */
+}
+
+.texto-producto {
+    flex: 1; /* El texto ocupa el espacio disponible */
+}
+
+.imagen-producto img {
+    max-width: 400px; /* Ajusta el tamaño máximo de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border: 2px solid #ccc; /* Opcional: agrega un borde */
+    border-radius: 5px; /* Opcional: esquinas redondeadas */
+}
+.iconos {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.icono-persona {
+    font-size: 1.5rem;
+    color: #3059b3;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.icono-persona:hover {
+    color: #1d3f8b;
+}
