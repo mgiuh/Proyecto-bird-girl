@@ -182,3 +182,21 @@ header nav a {
 .icono-persona:hover {
     color: #1d3f8b;
 }
+.comparador {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    }
+.componente {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+.componente select, .componente p {
+    width: 100%;
+    margin-top: 10px;
+    }
